@@ -11,7 +11,7 @@
     <meta name="robots" content="index, follow" />
     <!--icon-->
     <link rel="icon" href="/img/icon.png" />
-    <link rel="stylesheet" href="/all.css" />
+    <link rel="stylesheet" href="/style.css" />
     <!--Fonts-->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -72,9 +72,9 @@
             <!--Menu Principal-->
             <div class="menu">
                 <ul>
-                    <li><a href="#">Início</a></li>
-                    <li><a href="#">Serviços</a></li>
-                    <li><a href="#">Sobre</a></li>
+                    <li><a onclick="closeMenu()" href="#home">Início</a></li>
+                    <li><a onclick="closeMenu()" href="#services">Serviços</a></li>
+                    <li><a onclick="closeMenu()" href="#about">Sobre</a></li>
                 </ul>
 
                 <a class="button" href="#">Agende sua consulta</a>
@@ -203,7 +203,6 @@
         </div>
     </nav>
     <!--End Navigation-->
-
     <!-- Section Home -->
     <section id="home">
         <div class="wrapper">
